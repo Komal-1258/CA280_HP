@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>TEXT INPUT FIELDS</h2>
+<p id="p1"></p>
+<p id="p2"></p>
+<form>
+  First name:
+  <input type="text" ><br><br>
+  <input type="text" value="Sachin"><br>
+  <input type="text" value="Sachin" id="f1" ><br>
+  Last name:
+  <input type="text" value="Tendulkar" id="l1"><br>
+</form>
+<script>
+document.write("Hello !!  ");
+ document.getElementById("p1").innerHTML= document.getElementById("f1").value;
+document.getElementById("p2").innerHTML= document.getElementById("l1").value;
+document.write(document.getElementById("f1").value+"  "+document.getElementById("l1").value);
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <fieldset>
+            <legend>APPLY FOR THE JOB</legend>
+            <table cellpadding="10">
+                <tr>
+                    <td> Full Name </td>
+                    <td><input type="text" required ></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"  required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                   <td><input type="radio" id="male"  name="subject" value="male">Male
+ 	                <input type="radio" id="female" name="subject"  value="fm">Female
+                </td> 
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td><select id="n1" size="1" >
+                        <option value="id">Indian</option>
+                        <option value="am">American</option>
+                        <option value="it">Italian</option>
+                        <option value="ch">Chinese</option>
+                 </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td> <input type="checkbox" id="s1" name="skill1" value="skl" >Asp.Net
+                        <input type="checkbox" id="s2"  name="skill2" value="skil">jQuery<br>
+                        <input type="checkbox" id="s3"  name="skill3" value="skill">MVC
+                        <input type="checkbox" id="s4"  name="skill4" value="skills">Sql Server<br></td>
+                </tr>
+                <tr>
+                    <td>Post applying for</td>
+                    <td> <input type="radio" id="tr"  name="post" value="tr">Trainee
+                        <input type="radio" id="se"  name="post" value="se">Software Engineer<br>
+                        <input type="radio" id="tl"  name="post" value="tl">Team Leader
+                        <input type="radio" id="pm"  name="post" value="pm">Project Manager<br><br></td>
+                </tr>
+                <tr>
+                    <td>Paste your resume</td>
+                    <td> <textarea name="message" rows="15" cols="100" ></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Submit" onClick="document.write('YOUR FEEDBACK COLLECTED')"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

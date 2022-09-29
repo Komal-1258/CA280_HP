@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>EXAMPLE FOR HTML MARQUEE TAG</title>
+</head>
+<marquee width="50%" direction="up" height="30%">
+	This is sample scrolling text.
+</marquee>
+<marquee width="40%" direction="down" height="30%">
+	This is sample scrolling text.
+</marquee>
+<marquee width="40%" direction="left" height="30%">
+	This is sample scrolling text.
+</marquee>
+<marquee width="40%" direction="right" height="30%">
+	This is sample scrolling text.
+</marquee>
+<marquee>
+	This is sample scrolling text.
+</marquee>
+<body>
+<marquee behaviour="scroll" direction="left" height="50%" width="40%" onmouseover="this.stop();"
+onmouseout="this.start();">Click and hold the mouse marquee stop
+</marquee>
+
+</body>
+<marquee id="m1">
+	<p>Press Button</p>
+</marquee>
+<marquee id="m2">
+	<p> Button two</p>
+</marquee>
+<marquee id="m3">
+	<p>Button three</p>
+</marquee>
+<input type="button" value="stop" onClick="m1.stop();"/>
+<input type="button" value="start" onClick="m1.start();"/>
+
+</html>
